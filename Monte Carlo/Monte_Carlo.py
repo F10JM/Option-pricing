@@ -13,7 +13,7 @@ r = 0.01            #risk-free rate (%)
 N = 10              #number of time steps
 M = 1000            #number of simulations
 market_value = 3.86 #market price of option
-T = ((datetime.date(2022,3,17)-datetime.date(2022,1,17)).days+1)/365    
+T = 100/365    
 print(T)
 
 dt = T/N
